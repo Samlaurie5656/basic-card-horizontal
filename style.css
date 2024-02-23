@@ -8,7 +8,7 @@
 
 body {
     background-color: rgb(255, 255, 255);
-    background-image: url('moon.png');
+    background-image: url(assets/2x/IMG_3354\ \(1\).jpg);
     background-size:cover;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -41,7 +41,7 @@ h1{
   text-align: center;
   font-size: 16px;
   position: relative; 
-  top: 90px;
+  top: 175px;
   color: #ffffff;
   
 }
@@ -54,8 +54,8 @@ h2{
   font-size: 10px;
   text-align: center;
   position: relative; 
-  top: 100px;
-  color: #027691;
+  top: 175px;
+  color: #ffffff;
 } 
 
 h3{
@@ -63,27 +63,28 @@ h3{
   padding-top: 0px;
   font-family: 'Kumbh Sans', sans-serif;
   font-weight: 400;
+  font-size: 10px;
   text-align: center;
   position: relative; 
-  top: 100px;
+  top: 180px;
 }
 /* How links are styled on page load and also after a link has been visited */
 a:link, a:visited {
-  color: #0b8577;
+  color: #ffffff;
   padding: 0px 0px;
   text-align: center;
   text-decoration: none;
 }
 /* how a link is styled when you hover over it */
 a:hover {
-  color: rgb(0, 151, 206);
+  color: rgb(198, 79, 181);
 }
 
 /* specific styling to scale elements down for mobile */
 @media only screen and (max-width: 900px) {
   .card{
     width: 390px;
-    height: 220px;
+    height: 200px;
     position: fixed;
     top: 50%;
     left: 50%;
