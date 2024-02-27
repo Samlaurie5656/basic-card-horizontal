@@ -39,7 +39,7 @@ h1{
     font-weight: 500;
     font-style: normal;
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
   position: relative; 
   top: 147px;
   color: #000000;
@@ -51,7 +51,7 @@ h2{
   padding-top: 0px;
   font-family: 'Kumbh Sans', sans-serif;
   font-weight: 500;
-  font-size: 10px;
+  font-size: 12px;
   text-align: center;
   position: relative; 
   top: 147px;
@@ -69,19 +69,19 @@ a:hover {
   color: rgb(198, 79, 181);
 }
 .icon-container{
-  width: 150px;
+  width: 100px;
   display: grid;
   margin:0 auto;
-  grid-template-columns: 1fr 4fr;
-  grid-template-rows: repeat(2, 1fr);
-  margin-top: 150px;
+  grid-template-columns: 3fr 4fr;
+  grid-template-rows: repeat(2, fr);
+  margin-top: 155px;
   grid-column-gap: 40px;
   grid-row-gap: 40px;
   grid-gap:3px;
   }
 /* specific styling to scale elements down for mobile */
-@media only screen and (max-width: 300px) 
-  .card{
+@media only screen and (max-width: 300px) {
+.card{
     width: 390px;
     height: 200px;
     position: fixed;
@@ -89,4 +89,9 @@ a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0 auto;
-  }
+}
+}
+
+svg{
+  width:20px;
+}
