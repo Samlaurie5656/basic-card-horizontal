@@ -69,16 +69,18 @@ a:hover {
   color: rgb(198, 79, 181);
 }
 .icon-container{
-  width:20%;
+  width: 100px;
   display: grid;
+  margin:0 auto;
   grid-template-columns: 1fr 4fr;
   grid-template-rows: repeat(2, 1fr);
+  margin-top: 165px;
   grid-column-gap: 40px;
   grid-row-gap: 40px;
-  grid-gap:10px;
+  grid-gap:3px;
   }
 /* specific styling to scale elements down for mobile */
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 300px) 
   .card{
     width: 390px;
     height: 200px;
