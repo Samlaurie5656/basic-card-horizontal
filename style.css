@@ -69,12 +69,12 @@ a:hover {
   color: rgb(198, 79, 181);
 }
 .icon-container{
-  width: 100px;
+  width: 150px;
   display: grid;
   margin:0 auto;
   grid-template-columns: 1fr 4fr;
   grid-template-rows: repeat(2, 1fr);
-  margin-top: 165px;
+  margin-top: 150px;
   grid-column-gap: 40px;
   grid-row-gap: 40px;
   grid-gap:3px;
