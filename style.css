@@ -8,7 +8,7 @@
 
 body {
     background-color: rgb(255, 255, 255);
-    background-image: url("black-background");
+    background-image: url("blackbackgroun2.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -16,7 +16,7 @@ body {
 /* the main card container */
 
 .card{
-  background-image: url("assets/2x/Final\ B\ Card\ [Recovered].png");
+  background-image: url("Final\ B\ Card.png");
   background-size:cover;
   background-repeat: no-repeat;
   width: 441px;
@@ -41,7 +41,7 @@ h1{
   text-align: center;
   font-size: 18px;
   position: relative; 
-  top: 147px;
+  top: 163px;
   color: #000000;
   
 }
@@ -50,11 +50,11 @@ h2{
   margin-top: 0px;
   padding-top: 0px;
   font-family: 'Kumbh Sans', sans-serif;
-  font-weight: 500;
+  font-weight: 50;
   font-size: 12px;
   text-align: center;
   position: relative; 
-  top: 147px;
+  top: 164px;
   color: #000000;
 } 
 /* How links are styled on page load and also after a link has been visited */
@@ -71,13 +71,13 @@ a:hover {
 .icon-container{
   width: 100px;
   display: grid;
-  margin:0 auto;
+  margin:1 auto;
   grid-template-columns: 3fr 4fr;
   grid-template-rows: repeat(2, fr);
-  margin-top: 155px;
+  margin-top: 175px;
   grid-column-gap: 40px;
   grid-row-gap: 40px;
-  grid-gap:3px;
+  grid-gap:20px;
   }
 /* specific styling to scale elements down for mobile */
 @media only screen and (max-width: 300px) {
